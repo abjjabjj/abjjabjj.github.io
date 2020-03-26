@@ -1,2 +1,2 @@
-# muh-website
+# website
 Source code for andrewliang.me

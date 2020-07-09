@@ -1,4 +1,11 @@
-﻿.circle {
+﻿.center-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.circle {
     display: block;
     margin-left: auto;
     margin-right: auto;

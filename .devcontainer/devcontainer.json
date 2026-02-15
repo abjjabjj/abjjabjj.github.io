@@ -20,6 +20,9 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 
-	// This is required to enable port forwarding on versions of Docker newer than 26.0.0. For more details, see https://stackoverflow.com/questions/78365120/cannot-connect-from-host-to-published-port-of-vscode-dev-containers-since-docker
+	// This is required to enable port forwarding on newer versions of Docker.
+	// For more details, see this stackoverflow: https://stackoverflow.com/questions/78365120/cannot-connect-from-host-to-published-port-of-vscode-dev-containers-since-docker
+	// There is also a github issue: https://github.com/docker/for-mac/issues/7276
+	// that leads to this one: https://github.com/vitejs/vite/issues/16522
 	"runArgs": ["--network=host"]
 }
